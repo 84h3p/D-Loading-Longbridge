@@ -75,6 +75,9 @@ setInterval(() => {
 		progress += (states[type].done / states[type].count) * 100;
 	}
 
+// document.getElementById('background').style.background = 'url(assets/charger.jpg)';
+
+
 	let total = Math.min(Math.round(progress / Object.keys(states).length), 100);
 	if (total < last) total = last;
 	last = total;
