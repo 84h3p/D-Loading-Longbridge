@@ -154,6 +154,7 @@ progress[value]::-webkit-progress-value {
     transition: width 0.5s;
 }
 progress::-webkit-progress-value {
-	background: #00b7ff;
+	background: rgb(163,28,97);
+	background: linear-gradient(90deg, rgba(163,28,97,1) 0%, rgba(198,44,112,1) 17%, rgba(193,49,115,1) 26%, rgba(255,149,0,1) 100%);
 	border-radius: 1rem;
 }

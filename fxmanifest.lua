@@ -9,7 +9,6 @@ files {
     'assets/gta610.jpg',
     'assets/main.js',
     'assets/gravity.woff2',
-    'music/song.mp3',
     'config.js'
 }
 

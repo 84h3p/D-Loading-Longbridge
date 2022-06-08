@@ -12,12 +12,10 @@
 <div class="background-tint"></div>
 <div id="background">
 <div class='center'>
-<!-- <div class='title'><span style='color:#00b7ff;'>Long</span >bridge</div> -->
 <div class='title'><img src='assets/logo.png' style="height: 30vh; weight: 30vh"><span style="margin-left: -4vh;">Longbridge</span></div>
 <div style='width: 99%;'>
 </div>
 </div>
-
 
 <main>
     <h1 id="title"></h1>
@@ -27,33 +25,6 @@
 
 <progress id="progress" min="0" max="100" value="0"></progress>
 </main>
-
-
-<audio id="audio_loading" src="music/song.mp3" autoplay hidden="true" loop="true"/>
-<script>
-
-var play = true;
-var myAudio = document.getElementById("audio_loading");
-
-myAudio.volume = 0.5;
-
-function onKeyDown(event) {
-        switch (event.keyCode) {
-            case 32: //SpaceBar
-                if (play) {
-                    myAudio.pause();
-                    play = false;
-                } else {
-                    myAudio.play();
-                    play = true;
-                }
-                break;
-        }
-  return false;
-}
-
-window.addEventListener("keydown", onKeyDown, false);
-</script>
 
 <script src="config.js"></script>
 <script src="assets/main.js"></script>
